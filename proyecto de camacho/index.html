@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pequeña Empresa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="conteiner">
+        <h1>Logo</h1>
+    <div class="contenedor">
+    <img src="logo.jpg" class="img">
+    </div>
+    </header>
+    
+    <div class="container-title">Zapatos</div>
+
+        <main>
+        <div class="container-img">
+            <img
+                src="https://cdn.pixabay.com/photo/2021/03/08/12/31/oxford-shoes-6078993_1280.jpg"
+                alt="imagen-producto"
+            />
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$150.00</span>
+                <i class="fa-solid fa-angle-right"></i>
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label for="colour">Color</label>
+                    <select name="colour" id="colour">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="cafe">cafe</option>
+                        <option value="negro">negro</option>
+                        <option value="beige">Beige</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="size">Talla</label>
+                    <select name="size" id="size">
+                        <option disabled selected value="">
+                            Escoge una opción
+                        </option>
+                        <option value="40">40</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>OI
+                        <option value="44">44</option>
+                    </select>
+                </div>
+                <button class="btn-clean">Limpiar</button>
+            </div>
+
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input
+                        type="number"
+                        placeholder="1"
+                        value="1"
+                        min="1"
+                        class="input-quantity"
+                    />
+                    <div class="btn-increment-decrement">
+                        <i class="fa-solid fa-chevron-up" id="increment"></i>
+                        <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+                <button class="btn-add-to-cart">
+                    <i class="fa-solid fa-plus"></i>
+                    Añadir al carrito
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripción</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Laboriosam iure provident atque voluptatibus
+                        reiciendis quae rerum, maxime placeat enim cupiditate
+                        voluptatum, temporibus quis iusto. Enim eum qui delectus
+                        deleniti similique? Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Sint autem magni earum est
+                        dolorem saepe perferendis repellat ipsam laudantium cum
+                        assumenda quidem quam, vero similique? Iusto officiis
+                        quod blanditiis iste?
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-additional-information">
+                <div class="title-additional-information">
+                    <h4>Información adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional-information hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>-----------</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <span>Compartir</span>
+                <div class="container-buttons-social">
+                    <a href="https://www.facebook.com/profile.php?id=61567052715783"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/AK7299514046977"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/akak8260/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@keylermora3792"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-related-products">
+        <h2>Productos Relacionados</h2>
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img
+                        src="https://image.hm.com/assets/hm/17/b8/17b87d5dffa90f80fcbfc0f35a8d839f0d0611ff.jpg?imwidth=2160"
+                        alt="producto-1"
+                    />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Zapatos Deporitvos Con Suela Gruesa</h3>
+                        <p class="category">Footwear, Sneakers</p>
+                    </div>
+                    <div class="price">$60.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img
+                        src="https://media.hipercalzado.com/img/p/2/5/2/4/6/2/252462-home_default.jpg"
+                        alt="producto-2"
+                    />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Jhayber - Melasa De Mujer</h3>
+                        <p class="category">Footwear, Sneakers</p>
+                    </div>
+                    <div class="price">$120.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img
+                        src="https://images.deprati.com.ec/sys-master/images/h7e/he2/12431959261214/17293273-0_product_300Wx450H"
+                        alt="producto-3"
+                    />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Zapatos Deportivos</h3>
+                        <p class="category">Footwear, Sneakers</p>
+                    </div>
+                    <div class="price">$235.00</div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img
+                        src="https://img.ltwebstatic.com/images3_spmp/2023/12/03/9d/17015963317cb27f9133f4a1158064e7c52087ff12_thumbnail_720x.webp"
+                        alt="producto-4"
+                    />
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Zapatos Deportivos Para Correr</h3>
+                        <p class="category">Footwear, Sneakers</p>
+                    </div>
+                    <div class="price">$95.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-related-products-1">
+        <h2>Galeria</h2>
+        <div class="card-list-products">
+            <div class="card">
+     <div class="card-1">
+        <div class="card-img-1">
+            <img
+                src="https://ae01.alicdn.com/kf/Sad5a7558f78c40eb92d56296736c88d5I.jpg_640x640.jpg_.webp"
+                alt="producto-5"
+            />
+        </div>
+        <div class="info-card-1">
+            <div class="text-product-1">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$85.00</div>
+        </div>
+    </div>
+
+    <div class="card-1">
+        <div class="card-img-1">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4UPaTGSxhdC1i6BT6BzCgsnFRd6uSIHNC68bcNdzLlCjo-ExMv-IWAVBY9lqK5l7RrWY&usqp=CAU"
+                alt="producto-6"
+            />
+        </div>
+        <div class="info-card-1">
+            <div class="text-product-1">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$76.00</div>
+        </div>
+    </div>
+
+    <div class="card-1">
+        <div class="card-img-1">
+            <img
+                src="https://ae01.alicdn.com/kf/H2294fc6015444891bf08c75981918a6fq.jpg_640x640q90.jpg"
+                alt="producto-7"
+            />
+        </div>
+        <div class="info-card-1">
+            <div class="text-product-1">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$55.00</div>
+        </div>
+    </div>
+
+    <div class="card-1">
+        <div class="card-img-1">
+            <img
+                src="https://http2.mlstatic.com/D_NQ_NP_820256-MEC76686035582_062024-O.webp"
+                alt="producto-8"
+            />
+        </div>
+        <div class="info-card-1">
+            <div class="text-product-1">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$65.00</div>
+        </div>
+    </div>
+
+    <div class="card-2">
+        <div class="card-img-2">
+            <img
+                src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/123567881_01/w=1500,h=1500,fit=pad"
+                alt="producto-9"
+            />
+        </div>
+        <div class="info-card-2">
+            <div class="text-product-2">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$100.00</div>
+        </div>
+    </div>
+
+    <div class="card-2">
+        <div class="card-img-2">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSpHskdGu5SqMT24aj4XHrZYnBoT2wRtfI-WSqHmutyFRSlEOSr37CoTOkv8uHmCGKds&usqp=CAU"
+                alt="producto-10"
+            />
+        </div>
+        <div class="info-card-2">
+            <div class="text-product-2">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$94.00</div>
+        </div>
+    </div>
+
+    <div class="card-2">
+        <div class="card-img-2">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqKWvaKhk9MXsSHnjuwdbEYJ8UXnNoRsC0gaFcLX3Hap3WV3kZruNW2GZNN6kJQoN3ISE&usqp=CAU"
+                alt="producto-11"
+            />
+        </div>
+        <div class="info-card-2">
+            <div class="text-product-2">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$30.00</div>
+        </div>
+    </div>
+
+    <div class="card-2">
+        <div class="card-img-2">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5lHGU_EMnXViAgBZ7N9tRPWzKiVhe4yrFX-WyxKOx5s1PrC2-fWV4-4tADeuWdGz438o&usqp=CAU"
+                alt="producto-12"
+            />
+        </div>
+        <div class="info-card-2">
+            <div class="text-product-2">
+                <h3>Zapatos Deportivos Para Correr</h3>
+                <p class="category">Footwear, Sneakers</p>
+            </div>
+            <div class="price">$45.00</div>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="document">
+            <ul>
+               <li><a href="mision y vision.html">Empresa AK</a></li>
+               <li><a href="politicas.html">Politicas</a></li>
+            </ul>
+           </div>
+    </footer>
+    <script>
+        src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymous"
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
